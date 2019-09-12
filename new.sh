@@ -35,7 +35,9 @@ if [ $? = 0 ]; then
   exit 1
 fi
 
+
 # ブランチを切る
+git stash
 git checkout master
 git checkout -b draft/$1
 
