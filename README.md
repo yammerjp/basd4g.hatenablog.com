@@ -10,6 +10,10 @@
 1. 適宜commit, push
 1. pullreqを出してもう一度読み直し、良さげならmerge
 
+まとめたコマンドが ./new.sh
+
+***注意: new.shはgitコマンドを内包しているが、現在diffがあるか等を検証してないので、stagingと未stagingに変更がないときのみ呼んで!!!!***
+
 ## Todo
 
 - masterをpush不可に
