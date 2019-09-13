@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  deploy_master:
+    docker:
+      - image: circleci/node:12.8
+    steps:
+      - run:
+          name: clone green-turtle
+          command: git clone https://github.com/basd4g/green-turtle.git
+      - run:
+          name: clone green-turtle-article
+          command: git clone https://github.com/basd4g/green-turtle-article.git
+      - run:
+          name: mv articles
+          command: rm -rf green-turtle/assets && mkdir -p green-turtle/assets/article && mv green-turtle-article/* green-turtle/assets/article
+      - run:
+          name: yarn install
+          command: cd green-turtle && yarn install
+      - run:
+          name: yarn make
+          command: yarn make
+      - run:
+          name: yarn deploy
+          command: yarn deploy --token=$FIREBASE_TOKEN
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - deploy_master:
+          filters:
+            branches:
+              only: master
