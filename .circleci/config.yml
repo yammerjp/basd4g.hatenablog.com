@@ -4,6 +4,9 @@ jobs:
     docker:
       - image: circleci/node:12.8
     steps:
+      - ass_ssh_keys:
+          fingerprints:
+            - be:0f:b6:60:30:3a:60:b9:8a:46:6a:da:35:b2:09:f7
       - run:
           name: clone green-turtle
           command: git clone https://github.com/basd4g/green-turtle.git
