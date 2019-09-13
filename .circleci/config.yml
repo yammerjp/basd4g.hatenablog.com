@@ -9,7 +9,7 @@ jobs:
             - "be:0f:b6:60:30:3a:60:b9:8a:46:6a:da:35:b2:09:f7"
       - run:
           name : set answer 'yes' on git clone
-          command: touch ~/.ssh/config && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: clone green-turtle
           command: git clone https://github.com/basd4g/green-turtle.git
