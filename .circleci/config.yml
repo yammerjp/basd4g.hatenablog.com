@@ -6,7 +6,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "be:0f:b6:60:30:3a:60:b9:8a:46:6a:da:35:b2:09:f7"
+            - $FINGERPRINT_GITHUB
       - run:
           name : set answer 'yes' on git clone
           command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
