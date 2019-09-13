@@ -9,10 +9,10 @@ jobs:
             - "be:0f:b6:60:30:3a:60:b9:8a:46:6a:da:35:b2:09:f7"
       - run:
           name: clone green-turtle
-          command: git clone https://github.com/basd4g/green-turtle.git
+          command: git clone git://github.com/basd4g/green-turtle.git
       - run:
           name: clone green-turtle-article
-          command: git clone https://github.com/basd4g/green-turtle-article.git
+          command: git clone git://github.com/basd4g/green-turtle-article.git
       - run:
           name: mv articles
           command: rm -rf green-turtle/assets && mkdir -p green-turtle/assets/article && mv green-turtle-article/* green-turtle/assets/article
