@@ -24,10 +24,10 @@ jobs:
           command: cd green-turtle && yarn install
       - run:
           name: yarn make
-          command: yarn make
+          command: cd green-turtle && yarn make
       - run:
           name: yarn deploy
-          command: yarn deploy --token=$FIREBASE_TOKEN
+          command: cd green-turtle && yarn deploy --token=$FIREBASE_TOKEN
 
 workflows:
   version: 2
