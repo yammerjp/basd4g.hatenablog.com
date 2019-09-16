@@ -48,7 +48,7 @@ touch $1/index.md
 # index.mdに初期値を入れる
 echo '---' >> $1/index.md
 echo title: $1 >> $1/index.md
-echo date: `date '+%Y-%m-%d %T'` >> $1/index.md
+echo date: `date '+%Y/%m/%d %H:%M'` >> $1/index.md
 echo tags: >> $1/index.md
 echo '---' >> $1/index.md
 echo '' >> $1/index.md
