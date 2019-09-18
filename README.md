@@ -10,12 +10,27 @@
 1. 適宜commit, push
 1. pullreqを出してもう一度読み直し、良さげならmerge
 
+まとめたコマンドが ./new.sh
+
+***注意: new.shはgitコマンドを内包しているが、現在diffがあるか等を検証してないので、stagingと未stagingに変更がないときのみ呼んで!!!!***
+
 ## Todo
 
 - masterをpush不可に
-- firebaseCLIでデプロイ出来るように
-- circleCIでデプロイ自動化
-- ブログデザインを作る
+- firebaseCLIでデプロイ出来るように -> やった
+- circleCIでデプロイ自動化 -> やった
+- ブログデザインを作る -> 最低限やった
+
+## ローカルで見え方をチェックする
+
+### `./dev.sh`
+
+ローカルにサーバーが立って [http://127.0.0.1:8080](http://127.0.0.1:8080)にアクセスできるようになる。
+
+### `./undev.sh` 
+
+`dev.sh`でcloneした`green-turtle`ディレクトリを削除するだけ。
+ちなみに仮に`./undev.sh`しなかったとしても.gitignoreに`/green-turtle/`を登録しているので、記事以外の内容がgitで追跡されることはない。
 
 ## CircleCIで使われる予定のshell
 
