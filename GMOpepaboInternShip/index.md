@@ -26,7 +26,7 @@ GMOペパボ株式会社(以下ペパボと表記させていただく) 福岡�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ANXs_ZdQtt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ちなみに私はインターンシップでDiscover New Something[^3](annotation-3)した。
+ちなみに私はインターンシップでDiscover New Something[^3](#annotation-3)した。
 
 福岡オフィスではホスティング系サービスの開発を行っていて、今回はその中のムームードメインチームに参加させていただいた。
 
