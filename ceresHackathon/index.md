@@ -79,5 +79,5 @@ tags: Internship セレス ハッカソン
 
 <ul class="gt-article-annotation-list">
 <li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: 「いつ」「誰が」「どこで」「誰と」「何をした」をそれぞれカードに書き、他人のものと混ぜて新しい文章を作るゲームのこと。</li>
-<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: <a href="https://ja.wikipedia.org/wiki/ブレインストーミング">チームで沢山のアイデアを出す手法</a>。</li>
+<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: チームで沢山のアイデアを出す手法。(<a href="https://ja.wikipedia.org/wiki/ブレインストーミング">wikipedia</a>)</li>
 </ul>
