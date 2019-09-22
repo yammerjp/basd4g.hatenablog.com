@@ -12,7 +12,8 @@
 
 まとめたコマンドが ./new.sh
 
-***注意: new.shはgitコマンドを内包しているが、現在diffがあるか等を検証してないので、stagingと未stagingに変更がないときのみ呼んで!!!!***
+***注意: new.shはgitコマンドを内包しているが、現在diffがあるか等を検証してないので、stagingと未stagingに変更がないときのみ呼んで!!!!***  
+注意: 現在の仕様では記事IDとして認められるのは半角英数のみ。`./new.sh`を使えばこれ以外を弾くようにしてあるはずだが。
 
 ## Todo
 
@@ -52,3 +53,29 @@ cd ../
 # dist配下をfirebase CLIでデプロイ
 
 ```
+
+補足: 現在はこれに準ずるような内容でmasterにmergeされたら自動デプロイされるようになっている。
+
+## 記事内で使われる注釈記法について
+
+### 本文中の注釈元
+
+例えば1つ目の注釈であれば次のタグを本文中に挿入する。
+
+```
+<a id="annotation-from-1" href="#annotation-to-1">^1</a>
+```
+
+### 本文末尾の注釈先
+
+hrタグの後リスト形式で各注釈内容を説明する。
+
+```
+<hr class="gt-article-annotation-horizontalrule"/>
+
+<ul class="gt-article-annotation-list">
+<li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: 注釈1に対する説明</li>
+</ul>
+```
+
+***TODO: green-articleレポジトリ側で、マークダウンのパース前に自動でこれをやってほしい***
