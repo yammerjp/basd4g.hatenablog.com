@@ -156,7 +156,9 @@ LT経験の浅い私のためにLTの機会を増やして頂き、インター�
 ![集合写真](GMOpepabo1.jpg)
 パートナーさんと我々インターン生。最高の夏。
 
-<ul style="list-style: none; padding-left: 0;">
+<hr class="gt-article-annotation-horizontalrule"/>
+
+<ul class="gt-article-annotation-list">
 <li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: ペパボで働く人のこと</li>
 <li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: 正確にはペパボ協賛の技術イベント<a href="https://builderscon.io">builderscon2019</a>の幕割CM</li>
 <li><a id="annotation-to-3" href="#annotation-from-3">^3</a>: 記事中の<a href="https://www.youtube.com/watch?v=ANXs_ZdQtt4">動画</a>を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)</li>
