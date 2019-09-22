@@ -10,7 +10,7 @@ GMOペパボ株式会社(以下ペパボと表記させていただく) 福岡�
 ![ペパボ福岡オフィスの入り口](GMOpepabo6.jpg)
 オフィスの入口。
 
-インターンシップ最終日にパートナーさん[^1](#annotation-1)の前で成果発表会をしたのだが、話しきれなかった部分もあるのでそれを消化する意味もある。
+インターンシップ最終日にパートナーさん<a id="annotation-from-1" href="#annotation-to-1">^1</a>の前で成果発表会をしたのだが、話しきれなかった部分もあるのでそれを消化する意味もある。
 長文失礼したい。
 
 ## ペパボとムームードメイン
@@ -20,11 +20,11 @@ GMOペパボ株式会社(以下ペパボと表記させていただく) 福岡�
 GMOペパボ株式会社は東京・福岡・鹿児島にオフィスを構えるGMOグループの企業の一つ。「インターネットで可能性をつなげる、ひろげる」をミッションに、インターネットで個人の表現活動をする人を支援するサービスを展開している。
 レンタルサーバー「ロリポップ」、ハンドメイドマーケット「minne」等のサービスがある。
 
-丁度インターンシップ期間中に企業紹介動画[^2](#annotation-2)が公開された。( [別ver](https://twitter.com/achamixx/status/1167253538595954688)もある。)
+丁度インターンシップ期間中に企業紹介動画<a id="annotation-from-2" href="#annotation-to-2">^2</a>が公開された。( [別ver](https://twitter.com/achamixx/status/1167253538595954688)もある。)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ANXs_ZdQtt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ちなみに私はインターンシップでDiscover New Something[^3](#annotation-3)した。
+ちなみに私はインターンシップでDiscover New Something<a id="annotation-from-3" href="#annotation-to-3">^3</a>した。
 
 福岡オフィスではホスティング系サービスの開発を行っていて、今回はその中のムームードメインチームに参加させていただいた。
 
@@ -84,7 +84,7 @@ PullRequestを出す際に参考にしたいのがこちら↓。私が出した
 個人で開発しているとテストを書くという発想に至らず、今までテストを書いてこなかった。そのため、今回のインターンシップでテストを書いたのもとても良い経験だった。
 Vueコンポーネントを自在に手のひらで転がせるよう、転がれ転がれと念じながら過ごした(嘘)。
 
-テストを書くといいことが沢山ある。他人のためになるだけでなく、既存の実装や構造を振り返るいい機会にもなるし、自分がのちに実装するときに恩恵(正しい動作を保証できる[^4](#annotation-4))を享受できる(した)。
+テストを書くといいことが沢山ある。他人のためになるだけでなく、既存の実装や構造を振り返るいい機会にもなるし、自分がのちに実装するときに恩恵(正しい動作を保証できる<a id="annotation-from-4" href="#annotation-to-4">^4</a>)を享受できる(した)。
 
 ## 感じたこと - ペパボの話
 
@@ -109,7 +109,7 @@ Vueコンポーネントを自在に手のひらで転がせるよう、転が�
 会社やサービスを好きな人が多い。(観測範囲において。) しかし会社に魅力があるだけでなく、パートナーさんにファンになってしまうような惹きつける力がある。これこそ「ファンを増やすこと」を実践されている姿だと感じた。
 
 ![スリスリくん](GMOpepabo4.jpg)  
-インターン生が貰えるsuzuri[^5](#annotation-5)のキャラクター「スリスリくん」のぬいぐるみ。非売品でパートナーさんも簡単には手に入れられないらしい。
+インターン生が貰えるsuzuri<a id="annotation-from-5" href="#annotation-to-5">^5</a>のキャラクター「スリスリくん」のぬいぐるみ。非売品でパートナーさんも簡単には手に入れられないらしい。
 
 ### アウトプットすること
 
@@ -126,7 +126,7 @@ LT経験の浅い私のためにLTの機会を増やして頂き、インター�
 
 ### コンパクトシティ
 
-空港から街が近い、というよりも街に空港があるので移動が楽。(成田空港、お前のことだぞ。[^6](#annotation-6))
+空港から街が近い、というよりも街に空港があるので移動が楽。(成田空港、お前のことだぞ。<a id="annotation-from-6" href="#annotation-to-6">^6</a>)
 
 ### 食べ物が美味しい
 
@@ -156,9 +156,9 @@ LT経験の浅い私のためにLTの機会を増やして頂き、インター�
 ![集合写真](GMOpepabo1.jpg)
 パートナーさんと我々インターン生。最高の夏。
 
-<div id="annotation-1">[^1]: ペパボで働く人のこと</div>
-<div id="annotation-2">[^2]: 正確にはペパボ協賛の技術イベント[builderscon2019](https://builderscon.io)の幕割CM</div>
-<div id="annotation-3">[^3]: 記事中の[動画](https://www.youtube.com/watch?v=ANXs_ZdQtt4)を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)</div>
-<div id="annotation-4">[^4]: もちろん、テストはテストコードとして書かれた動作しか保証できないので、ある程度正しい動作を保証できるようなテストを書くこと、テストで何が保証されているのかを理解しておくことが必要がある。</div>
-<div id="annotation-5">[^5]: ペパボが運営するオリジナルグッズの作成・販売サービス。[suzuri](https://suzuri.jp)。</div>
-<div id="annotation-6">[^6]: さいたまに住んでいると羽田も遠い。</div>
+<div id="annotation-to-1">[^1]: ペパボで働く人のこと<a href="#annotation-from-1">↩</a></div>
+<div id="annotation-to-2">[^2]: 正確にはペパボ協賛の技術イベント[builderscon2019](https://builderscon.io)の幕割CM<a href="#annotation-from-2">↩</a></div>
+<div id="annotation-to-3">[^3]: 記事中の[動画](https://www.youtube.com/watch?v=ANXs_ZdQtt4)を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)<a href="#annotation-from-3">↩</a></div>
+<div id="annotation-to-4">[^4]: もちろん、テストはテストコードとして書かれた動作しか保証できないので、ある程度正しい動作を保証できるようなテストを書くこと、テストで何が保証されているのかを理解しておくことが必要がある。<a href="#annotation-from-4">↩</a></div>
+<div id="annotation-to-5">[^5]: ペパボが運営するオリジナルグッズの作成・販売サービス。[suzuri](https://suzuri.jp)。<a href="#annotation-from-5">↩</a></div>
+<div id="annotation-to-6">[^6]: さいたまに住んでいると羽田も遠い。<a href="#annotation-from-6">↩</a></div>
