@@ -1,3 +1,6 @@
+# 前回のcloneした内容を削除する。(残っているとclone出来ないので。)以前あった`undev.sh`を内包した感じ。
+rm -rf green-turtle
+
 git clone https://github.com/basd4g/green-turtle.git
 
 rm -rf green-turtle/assets
