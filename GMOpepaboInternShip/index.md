@@ -158,9 +158,9 @@ LT経験の浅い私のためにLTの機会を増やして頂き、インター�
 
 <ul style="list-style: none; padding-left: 0;">
 <li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: ペパボで働く人のこと</li>
-<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: 正確にはペパボ協賛の技術イベント[builderscon2019](https://builderscon.io)の幕割CM</li>
-<li><a id="annotation-to-3" href="#annotation-from-3">^3</a>: 記事中の[動画](https://www.youtube.com/watch?v=ANXs_ZdQtt4)を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)</li>
+<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: 正確にはペパボ協賛の技術イベント<a href="https://builderscon.io">builderscon2019</a>の幕割CM</li>
+<li><a id="annotation-to-3" href="#annotation-from-3">^3</a>: 記事中の<a href="https://www.youtube.com/watch?v=ANXs_ZdQtt4">動画</a>を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)</li>
 <li><a id="annotation-to-4" href="#annotation-from-4">^4</a>: もちろん、テストはテストコードとして書かれた動作しか保証できないので、ある程度正しい動作を保証できるようなテストを書くこと、テストで何が保証されているのかを理解しておくことが必要がある。</li>
-<li><a id="annotation-to-5" href="#annotation-from-5">^5</a>: ペパボが運営するオリジナルグッズの作成・販売サービス。[suzuri](https://suzuri.jp)。</li>
+<li><a id="annotation-to-5" href="#annotation-from-5">^5</a>: ペパボが運営するオリジナルグッズの作成・販売サービス。<a href="https://suzuri.jp">suzuri</a>。</li>
 <li><a id="annotation-to-6" href="#annotation-from-6">^6</a>: さいたまに住んでいると羽田も遠い。</li>
 </ul>
