@@ -54,28 +54,4 @@ cd ../
 
 ```
 
-補足: 現在はこれに準ずるような内容でmasterにmergeされたら自動デプロイされるようになっている。
-
-## 記事内で使われる注釈記法について
-
-### 本文中の注釈元
-
-例えば1つ目の注釈であれば次のタグを本文中に挿入する。
-
-```
-<a id="annotation-from-1" href="#annotation-to-1">^1</a>
-```
-
-### 本文末尾の注釈先
-
-hrタグの後リスト形式で各注釈内容を説明する。
-
-```
-<hr class="gt-article-annotation-horizontalrule"/>
-
-<ul class="gt-article-annotation-list">
-<li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: 注釈1に対する説明</li>
-</ul>
-```
-
-***TODO: green-articleレポジトリ側で、マークダウンのパース前に自動でこれをやってほしい***
+補足: 現在はこれに準ずるような内容でmasterにmergeされたら自動デプロイされるようにCircleCI上で設定済み。
