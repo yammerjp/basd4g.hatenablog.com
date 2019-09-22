@@ -156,9 +156,11 @@ LT経験の浅い私のためにLTの機会を増やして頂き、インター�
 ![集合写真](GMOpepabo1.jpg)
 パートナーさんと我々インターン生。最高の夏。
 
-<div id="annotation-to-1">[^1]: ペパボで働く人のこと<a href="#annotation-from-1">↩</a></div>
-<div id="annotation-to-2">[^2]: 正確にはペパボ協賛の技術イベント[builderscon2019](https://builderscon.io)の幕割CM<a href="#annotation-from-2">↩</a></div>
-<div id="annotation-to-3">[^3]: 記事中の[動画](https://www.youtube.com/watch?v=ANXs_ZdQtt4)を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)<a href="#annotation-from-3">↩</a></div>
-<div id="annotation-to-4">[^4]: もちろん、テストはテストコードとして書かれた動作しか保証できないので、ある程度正しい動作を保証できるようなテストを書くこと、テストで何が保証されているのかを理解しておくことが必要がある。<a href="#annotation-from-4">↩</a></div>
-<div id="annotation-to-5">[^5]: ペパボが運営するオリジナルグッズの作成・販売サービス。[suzuri](https://suzuri.jp)。<a href="#annotation-from-5">↩</a></div>
-<div id="annotation-to-6">[^6]: さいたまに住んでいると羽田も遠い。<a href="#annotation-from-6">↩</a></div>
+<ul style="list-style: none; padding-left: 0;">
+<li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: ペパボで働く人のこと</li>
+<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: 正確にはペパボ協賛の技術イベント[builderscon2019](https://builderscon.io)の幕割CM</li>
+<li><a id="annotation-to-3" href="#annotation-from-3">^3</a>: 記事中の[動画](https://www.youtube.com/watch?v=ANXs_ZdQtt4)を参照。buildersconのコンセプトらしい。(インターンシップとbuildersconに直接の関係はない。)</li>
+<li><a id="annotation-to-4" href="#annotation-from-4">^4</a>: もちろん、テストはテストコードとして書かれた動作しか保証できないので、ある程度正しい動作を保証できるようなテストを書くこと、テストで何が保証されているのかを理解しておくことが必要がある。</li>
+<li><a id="annotation-to-5" href="#annotation-from-5">^5</a>: ペパボが運営するオリジナルグッズの作成・販売サービス。[suzuri](https://suzuri.jp)。</li>
+<li><a id="annotation-to-6" href="#annotation-from-6">^6</a>: さいたまに住んでいると羽田も遠い。</li>
+</ul>
