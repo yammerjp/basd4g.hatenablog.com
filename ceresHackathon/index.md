@@ -29,7 +29,7 @@ tags: Internship セレス ハッカソン
 
 ### アイデアソンと設計
 
-シチュエーションゲーム[^1](#annotation1)を元に突飛な文章から「楽しく感じる状況」を探していき、ブレインストーミング[^2](#annotation2)を使ってアイデアを膨らませた。その後お題に合わせてターゲットを定めて具体化した。1日目終盤は時間があったのでアプリケーションの設計まで行った。
+シチュエーションゲーム<a id="annotation-from-1" href="#annotation-to-1">^1</a>を元に突飛な文章から「楽しく感じる状況」を探していき、ブレインストーミング<a id="annotation-from-2" href="#annotation-to-2">^2</a>を使ってアイデアを膨らませた。その後お題に合わせてターゲットを定めて具体化した。1日目終盤は時間があったのでアプリケーションの設計まで行った。
 
 設計の際、機能が盛り沢山なことに気づく。もっともコアな機能(お酒を勧める)を残してバッサリと削除することにした。削った機能はお酒の記録や好みの絞り込み等の機能である。この選択にあとで助けられる。
 
@@ -75,7 +75,9 @@ tags: Internship セレス ハッカソン
 
 そしてこのような機会を設けてくださり、開発をフォローしてくださった株式会社セレスの社員の方々、3日間とてもお世話になりました。ありがとうございました。
 
-<hr style="margin-top:4em;margin-bottom:2em;"/>
+<hr class="gt-article-annotation-horizontalrule"/>
 
-<div id="annotation1">^1: 「誰が」「どこで」「誰と」「何をした」をそれぞれカードに書き、他人のものと混ぜて新しい文章を作るゲームのこと。</div>  
-<div id="annotation2">^2: <a href="https://ja.wikipedia.org/wiki/ブレインストーミング">チームで沢山のアイデアを出す手法</a>。</div>
+<ul class="gt-article-annotation-list">
+<li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: 「誰が」「どこで」「誰と」「何をした」をそれぞれカードに書き、他人のものと混ぜて新しい文章を作るゲームのこと。</li>
+<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: <a href="https://ja.wikipedia.org/wiki/ブレインストーミング">チームで沢山のアイデアを出す手法</a>。</li>
+</ul>
