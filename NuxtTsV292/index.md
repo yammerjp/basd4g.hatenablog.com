@@ -1,6 +1,6 @@
 ---
 title: Nuxt.js(v2.9.2)とTypeScriptの開発環境を作る。
-date: 2019-09-05 00:31:32
+date: 2019/09/26 19:30
 tags: Nuxt.js TypeScript
 ---
 
@@ -22,10 +22,9 @@ Nuxt.jsとTypeScriptで開発環境を作るときのまとめ。(2019/9/5時点
 
 Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue-property-decorator)の利用が推奨されている。[^1]
 
-もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。
-参考文献にも載せたが[GitHub vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)などに従来記法との比較がある。
+もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。[^2]
 
-今回は最後にインストールするので、一つ前の[ESLint](#3.ESlint)までで止まればこれを使わない環境も構築できる。
+今回は最後にインストールするので、一つ前の[ESLint](#3-eslint)までで止まればこれを使わない環境も構築できる。
 
 ## 手順
 
@@ -40,7 +39,7 @@ Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue
 3. vue-property-decoratorを入れる
 4. ESLintを入れる
 
-### 1.create nuxt-app
+### 1. create nuxt-app
 
 Nuxt.jsで環境構築するときにお決まりのcreate-nuxt-app。
 yarnだと、 `$ yarn create nuxt-app hogehoge` とする。
@@ -68,7 +67,7 @@ $ yarn dev
 
 ```
 
-### 2.Install TypeScript
+### 2. Install TypeScript
 
 まず、TypeScriptに関するパッケージをインストールする。
 
@@ -171,7 +170,7 @@ $ yarn dev
 # TypeScriptで動くことを確認。
 ```
 
-### 3.ESlint
+### 3. ESlint
 
 ESLintと関連パッケージをインストールする。(今回はcreate nuxt-appでESLintをインストールしていないのでESLint自体もここでインストールする。)
 
@@ -296,9 +295,9 @@ $ yarn dev
 1. [Nuxt.js TypeScriptサポート](https://ja.nuxtjs.org/guide/typescript/) ... Nuxt.jsにTypeScript関連パッケージをインストールする。Nuxt.js v2.8までの記述のため、このページの内容のとおりではv2.9.2ではうまく行かない
 1. [GitHub eslint-config](https://github.com/nuxt/eslint-config) ... eslint-configのセットアップ
 1. [デコレータ | TypeScript 日本語ハンドブック | js STUDIO](https://js.studio-kingdom.com/typescript/handbook/decorators) ... `experimentalDecorators`について
-1. [GitHub vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
 1. [TypeScriptではじめるVueコンポーネント（vue-class-component）](https://qiita.com/hako1912/items/8d9968d07748d20825f8)... vue-property-decorator(nuxt-property-decorator)を使った`@Component`デコレータの書き方
 1. [Nuxt.js+ExpressのプロジェクトをTypeScript化する](https://crieit.net/posts/Nuxt-js-Express-TypeScript) ... nuxt-property-decoratorを使った`@Component`デコレータの書き方
 1. [はじめてのvue-property-decorator](https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5) ... vue-property-decorator(nuxt-property-decorator)を使ったデコレータの書き方
 
 [^1]: その他の参考文献2を参照
+[^2]: [GitHub vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
