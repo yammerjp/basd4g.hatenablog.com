@@ -81,7 +81,9 @@ $ touch tsconfig.json
 `package.json`, `nuxt.config.ts`, `Logo.vue`, `index.vue`を次のように編集する。
 `tsconfig.json`は新たに作ったので下のように記載する。
 
-```diff ./package.json
+`./package.json`
+
+```diff
 ...
    "scripts": {
 -    "dev": "nuxt",
@@ -96,7 +98,9 @@ $ touch tsconfig.json
 ...
 ```
 
-```diff ./nuxt.config.ts
+`./nuxt.config.ts`
+
+```diff
 +import {Configuration} from '@nuxt/types'
 
 -export default {
@@ -110,7 +114,9 @@ $ touch tsconfig.json
 +module.exports = nuxtConfig
 ```
 
-```json ./tsconfig.json
+`./tsconfig.json`
+
+```json
 {
   "compilerOptions": {
     "target": "esnext",
@@ -146,7 +152,9 @@ $ touch tsconfig.json
 }
 ```
 
-```diff ./components/Logo.vue
+`./components/Logo.vue`
+
+```diff
 ...
 </template>
 +
@@ -160,7 +168,9 @@ $ touch tsconfig.json
 ...
 ```
 
-```diff ./pages/index.vue
+`./pages/index.vue`
+
+```diff
 -<script>
 +<script lang="ts">
 ```
@@ -180,10 +190,11 @@ $ yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser @nuxtjs
 $ touch .eslintrc.js
 ```
 
-`package.json`, `nuxt.config.ts`を下のように編集する。
-`.eslintrc.js`は新たに作ったので次のように記載する。
+`package.json`, `nuxt.config.ts`,`.eslintrc.js`を次のように編集する。
 
-```diff package.json
+`package.json`
+
+```diff
 ...
   "scripts": {
     "dev": "nuxt-ts",
@@ -197,7 +208,9 @@ $ touch .eslintrc.js
 ...
 ```
 
-```diff nuxt.config.ts
+`nuxt.config.ts`
+
+```diff
 ...
   build: {
     /*
@@ -210,7 +223,9 @@ $ touch .eslintrc.js
 ...
 ```
 
-```js .eslintrc.js
+`.eslintrc.js`
+
+```js
 module.exports = {
   plugins: ['@typescript-eslint'],
   parserOptions: {
@@ -242,7 +257,9 @@ $ yarn add nuxt-property-decorator
 `index.vue`をデコレータを使った書き方に修正する。  
 またそのままだとコンパイルエラーを出すので、TypeScriptのオプションにデコレータの使用を宣言する。(`tsconfig.json`を編集)
 
-```diff ./pages/index.vue
+`./pages/index.vue`
+
+```diff
 ...
 <script lang="ts">
 +import { Component, Vue } from 'vue-property-decorator'
@@ -261,7 +278,9 @@ import Logo from '~/components/Logo.vue'
 ...
 ```
 
-```diff ./tsconfig.json
+`./tsconfig.json`
+
+```diff
 ...
     "compilerOptions": {
 ...
