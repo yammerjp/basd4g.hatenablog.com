@@ -20,9 +20,9 @@ Nuxt.jsとTypeScriptで開発環境を作るときのまとめ。(2019/9/5時点
 
 ## nuxt-property-decorator (vue-property-decorator)
 
-Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue-property-decorator)の利用が推奨されている。[^1]
+Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue-property-decorator)の利用が推奨されている。<a id="annotation-from-1" href="#annotation-to-1">^1</a>
 
-もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。[^2]
+もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。<a id="annotation-from-2" href="#annotation-to-2">^2</a>
 
 今回は最後にインストールするので、一つ前の[ESLint](#3-eslint)までで止まればこれを使わない環境も構築できる。
 
@@ -322,12 +322,15 @@ $ yarn dev
 その他の参考文献
 
 1. [Nuxt.js インストール](https://ja.nuxtjs.org/guide/installation/) ... yarn create nuxt-app について
-1. [Nuxt.js TypeScriptサポート](https://ja.nuxtjs.org/guide/typescript/) ... Nuxt.jsにTypeScript関連パッケージをインストールする。Nuxt.js v2.8までの記述のため、このページの内容のとおりではv2.9.2ではうまく行かない
 1. [GitHub eslint-config](https://github.com/nuxt/eslint-config) ... eslint-configのセットアップ
 1. [デコレータ | TypeScript 日本語ハンドブック | js STUDIO](https://js.studio-kingdom.com/typescript/handbook/decorators) ... `experimentalDecorators`について
 1. [TypeScriptではじめるVueコンポーネント（vue-class-component）](https://qiita.com/hako1912/items/8d9968d07748d20825f8)... vue-property-decorator(nuxt-property-decorator)を使った`@Component`デコレータの書き方
 1. [Nuxt.js+ExpressのプロジェクトをTypeScript化する](https://crieit.net/posts/Nuxt-js-Express-TypeScript) ... nuxt-property-decoratorを使った`@Component`デコレータの書き方
 1. [はじめてのvue-property-decorator](https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5) ... vue-property-decorator(nuxt-property-decorator)を使ったデコレータの書き方
 
-[^1]: その他の参考文献2を参照
-[^2]: [GitHub vue-property-decorator](https://github.com/kaorun343/vue-property-decorator)
+<hr class="gt-article-annotation-horizontalrule"/>
+
+<ul class="gt-article-annotation-list">
+<li><a id="annotation-to-1" href="#annotation-from-1">^1</a>: <a href="https://ja.nuxtjs.org/guide/typescript/">Nuxt.js TypeScriptサポート</a>に書かれている。(Nuxt.js v2.8までの記述のため、このページの内容のとおりではv2.9.2ではうまく行かない)</li>
+<li><a id="annotation-to-2" href="#annotation-from-2">^2</a>: <a href="https://github.com/kaorun343/vue-property-decorator">GitHub vue-property-decorator</a>に記載がある。</li>
+</ul>
