@@ -54,7 +54,7 @@ $ yarn create nuxt-app nuxt.ts-template
 # package manager : Yarn
 # UI framework : None
 # custom server framework : None (Recommended)
-# Nuxt.js modules : 
+# Nuxt.js modules :
 # test framework : None
 # rendering mode : Universal (SSR)
 # development tools :
