@@ -24,7 +24,7 @@ Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue
 
 もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。<a id="annotation-from-2" href="#annotation-to-2">^2</a>
 
-今回は最後にインストールするので、一つ前の[ESLint](#3-eslint)までで止まればこれを使わない環境も構築できる。
+今回は最後にインストールするので、一つ前の[ESLint](#手順3-eslint)までで止まればこれを使わない環境も構築できる。
 
 ## 手順
 
