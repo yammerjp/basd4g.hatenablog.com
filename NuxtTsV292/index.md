@@ -80,11 +80,11 @@ $ touch tsconfig.json
 
 TypeScriptに合わせて以下の設定ファイルを2つ、ソースを3つ書き換える。
 
-- `nuxt.config.ts`
-- `Logo.vue`
-- `index.vue`
 - `package.json`
 - `tsconfig.json` (新たに作成)
+- `nuxt.config.ts`
+- `index.vue`
+- `Logo.vue`
 
 `./package.json`
 
@@ -101,22 +101,6 @@ TypeScriptに合わせて以下の設定ファイルを2つ、ソースを3つ�
 +    "generate": "nuxt-ts generate"
    },
 ...
-```
-
-`./nuxt.config.ts`
-
-```diff
-+import {Configuration} from '@nuxt/types'
-
--export default {
-+const nuxtConfig: Configuration = {
-...
-  buildModules: [
-+      '@nuxt/typescript-build'
-  ],
-...
-}
-+module.exports = nuxtConfig
 ```
 
 `./tsconfig.json`
@@ -157,6 +141,29 @@ TypeScriptに合わせて以下の設定ファイルを2つ、ソースを3つ�
 }
 ```
 
+`./nuxt.config.ts`
+
+```diff
++import {Configuration} from '@nuxt/types'
+
+-export default {
++const nuxtConfig: Configuration = {
+...
+  buildModules: [
++      '@nuxt/typescript-build'
+  ],
+...
+}
++module.exports = nuxtConfig
+```
+
+`./pages/index.vue`
+
+```diff
+-<script>
++<script lang="ts">
+```
+
 `./components/Logo.vue`
 
 ```diff
@@ -171,13 +178,6 @@ TypeScriptに合わせて以下の設定ファイルを2つ、ソースを3つ�
 +
 <style>
 ...
-```
-
-`./pages/index.vue`
-
-```diff
--<script>
-+<script lang="ts">
 ```
 
 ```sh
@@ -263,8 +263,26 @@ nuxt-property-decoratorをインストールする。(vue-property-decoratorで�
 $ yarn add nuxt-property-decorator
 ```
 
-`index.vue`をデコレータを使った書き方に修正する。  
-またそのままだとコンパイルエラーを出すので、TypeScriptのオプションにデコレータの使用を宣言する。(`tsconfig.json`を編集)
+nuxt-property-decoratorに合わせて2ファイルを変更する。
+
+- `tsconfig.json` (デコレータの使用を宣言する。)
+- `index.vue` (デコレータを使った書き方に修正する。)
+
+`./tsconfig.json`
+
+```diff
+...
+    "compilerOptions": {
+...
+      "types": [
+        "@types/node",
+        "@nuxt/types"
+-      ]
++      ],
++      "experimentalDecorators": true
+    },
+...
+```
 
 `./pages/index.vue`
 
@@ -284,22 +302,6 @@ import Logo from '~/components/Logo.vue'
 +export default class Index extends Vue {
 +}
 </script>
-...
-```
-
-`./tsconfig.json`
-
-```diff
-...
-    "compilerOptions": {
-...
-      "types": [
-        "@types/node",
-        "@nuxt/types"
--      ]
-+      ],
-+      "experimentalDecorators": true
-    },
 ...
 ```
 
