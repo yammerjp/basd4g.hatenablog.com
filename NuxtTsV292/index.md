@@ -78,8 +78,13 @@ $ mv nuxt.config.js nuxt.config.ts
 $ touch tsconfig.json
 ```
 
-`package.json`, `nuxt.config.ts`, `Logo.vue`, `index.vue`を次のように編集する。
-`tsconfig.json`は新たに作ったので下のように記載する。
+TypeScriptに合わせて以下の設定ファイルを2つ、ソースを3つ書き換える。
+
+- `nuxt.config.ts`
+- `Logo.vue`
+- `index.vue`
+- `package.json`
+- `tsconfig.json` (新たに作成)
 
 `./package.json`
 
@@ -190,7 +195,11 @@ $ yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser @nuxtjs
 $ touch .eslintrc.js
 ```
 
-`package.json`, `nuxt.config.ts`,`.eslintrc.js`を次のように編集する。
+ESLintの設定を以下の3ファイルに記述する。
+
+- `package.json`
+- `nuxt.config.ts`
+- `.eslintrc.js`
 
 `package.json`
 
