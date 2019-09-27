@@ -1,6 +1,6 @@
 ---
 title: Nuxt.js(v2.9.2)とTypeScriptの開発環境を作る。
-date: 2019/09/26 19:30
+date: 2019/09/27 12:30
 tags: Nuxt.js TypeScript
 ---
 
@@ -11,20 +11,21 @@ Nuxt.jsとTypeScriptで開発環境を作るときのまとめ。(2019/9/5時点
 
 ## 目指すもの
 
-以下のものが問題なく使える環境。
+create nuxt-app したときと同じ環境で、下記のものが使えること。
+すぐにNuxt.jsとTypeScriptを用いて開発を始められる環境を構築する。
 
 - Nuxt.js v2.9.2
 - TypeScript
 - ESLint
 - nuxt-property-decorator
 
-## nuxt-property-decorator (vue-property-decorator)
+### nuxt-property-decorator (vue-property-decorator)
 
 Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue-property-decorator)の利用が推奨されている。<a id="annotation-from-1" href="#annotation-to-1">^1</a>
 
 もともとのNuxt.jsとは書き方が変わる。参考文献にいくつか載せてあるので、もともとの書き方と比較しながら慣れると良さそう。<a id="annotation-from-2" href="#annotation-to-2">^2</a>
 
-今回は最後にインストールするので、一つ前の[ESLint](#手順3-eslint)までで止まればこれを使わない環境も構築できる。
+今回は最後にインストールするので、一つ前の[ESLint](#3-eslint)までで止まればこれを使わない環境も構築できる。
 
 ## 手順
 
@@ -38,6 +39,8 @@ Nuxt.jsとTypeScriptを組み合わせるときは、nuxt-property-decorator(vue
 2. TypeScriptを入れる
 3. vue-property-decoratorを入れる
 4. ESLintを入れる
+
+<br><br>
 
 ### 1. create nuxt-app
 
@@ -66,6 +69,8 @@ $ yarn dev
 # 起動できることを確認。ブラウザからNuxt.jsのロゴが見えればオーケー。(以下の起動確認も同様。)
 
 ```
+
+<br><br>
 
 ### 2. Install TypeScript
 
@@ -185,6 +190,8 @@ $ yarn dev
 # TypeScriptで動くことを確認。
 ```
 
+<br><br>
+
 ### 3. ESlint
 
 ESLintと関連パッケージをインストールする。(今回はcreate nuxt-appでESLintをインストールしていないのでESLint自体もここでインストールする。)
@@ -254,6 +261,8 @@ $ yarn lint:fix
 $ yarn dev
 # Lintが動いていることと、変わらず起動できることを確認。
 ```
+
+<br><br>
 
 ### 4.nuxt-property-decorator
 
