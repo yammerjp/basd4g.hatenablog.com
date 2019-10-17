@@ -1,12 +1,12 @@
 ---
 title: TypeScriptでprivate methodを外部から呼ぶ
-date: xx
+date: 2019/10/17 11:50
 tags: TypeScript JavaScript テスト
 ---
 
 題名通りの話。
 
-private methodを単体テストするとき、直接呼べないので困ることがある。
+TypeScriptにてprivate methodを単体テストするとき、直接呼べないので困ることがある。
 private methodを外部から呼べないのは正しいふるまいだが、テストプログラム側からも呼べないのは不便だ。裏技的ではあるが、TypeScriptの制限を回避して呼ぶ方法があるので紹介する。
 
 ## 前提 TypeScriptのprivate
