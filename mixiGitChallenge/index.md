@@ -1,7 +1,5 @@
 ---
 title: mixi git challenge 12に参加した
----
-title: mixiGitChallenge
 date: 2019/10/26 20:22
 tags: mixi git
 ---
@@ -38,7 +36,7 @@ tags: mixi git
 - [問題: なぜか新しいファイルを追加できないリポジトリ（難易度: EASY）](https://github.com/mixi-git-challenge/git-challenge-is-order-an-adding)
 - [問題: Minesweeper（難易度: NORMAL）](https://github.com/mixi-git-challenge/git-challenge-minesweeper)
 
-チームを組んだ[keiya](https://twitter.com/keya_00001)氏と共に一緒に考えたり、分担したり。(一緒に戦ってくれてありがとう。)
+難易度ごとの問題を簡単なものから解いていった。チームメンバーと一緒に考えたり、分担したりを適宜組み合わせて進めた。  
 前半はそこそこのペースで進めたものの、競技後半は得点が伸びず勝利することは出来なかった。
 
 3.5-4時間ほどの競技時間の後、解説、[gitに関するクイズ](https://github.com/shumon84/GitQuiz)、そして懇親会が行われた。
@@ -53,8 +51,7 @@ gitはとても奥が深い。
 
 ## 学び
 
- 問題からgitを使った様々なトラブルの対処や便利な使い方を知ることが出来た。
-高度なことをしようとすればするほど、gitのよりコアな部分を知る必要がある。
+(問題の公開を避けるため詳細は省くが、)問題からgitを使った様々なトラブルの対処や便利な使い方を知ることが出来た。
 
 Pro Gitという書籍の翻訳版が無料で公開されており、gitについての理解が深まると思うので、これから参加する方は是非参考にしてほしい。
 
