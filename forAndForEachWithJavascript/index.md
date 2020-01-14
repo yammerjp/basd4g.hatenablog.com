@@ -16,8 +16,10 @@ tags: javascript es6
 
 for文と同様に、forEach()メソッドも繰り返し処理をすることができる。
 
-しかし、記述方法は異なり、配列.forEach関数の引数に、関数(今回はitemを引数とするアロー関数)を渡す。
-すると、渡された関数を、配列の各要素に対し実行することで、繰り返し処理が実現できる。
+しかし、記述方法は異なり、forEach()は、配列のメソッドである。
+引数にはコールバック関数(今回はitemを引数とするアロー関数)を渡す、
+
+すると、渡されたコールバック関数を、配列の各要素に対し実行することで、繰り返し処理が実現できる。
 
 ```js
 // for文で要素を羅列
@@ -83,7 +85,7 @@ for文もforEach()メソッドも繰り返し処理を表記できるが、forEa
 
 ちなみに、forEach()メソッドだけでなく、filter()メソッドやfind()メソッド、map()メソッド等が使える場合は、こちらのほうが更に簡潔に書けるため好ましい。
 
-その他、for in文やfor of文もあるが、ここでは言及しない。
+その他、[for...in](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...in)文や[for...of](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...of)文もあるが、ここでは言及しない。
 
 ## 参照
 
