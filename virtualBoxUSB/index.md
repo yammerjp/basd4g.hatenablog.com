@@ -21,7 +21,7 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 ### 作業
 
-    1. Extension Packの導入
+#### 1. Extension Packの導入
 
 [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)からOracle VM VirtualBox Extension Packをダウンロードする。
 
@@ -34,7 +34,7 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 ダウンロードしたファイルをダブルクリックすると、VirtualBoxのウィンドウが立ち上がりインストールが始まる。
 
-    2. USBデバイスフィルターに機器を追加
+#### 2. USBデバイスフィルターに機器を追加
 
 Oracle VM VirtualBoxマネージャーを開き、目的のVMにカーソルを合わせて右クリック -> 設定 を開く。
 
@@ -48,4 +48,4 @@ USBデバイスフィルター -> 右横の+アイコンをクリック -> 目�
 
 ![USBデバイスフィルター](2.png)
 
-VMを起動(再起動)する。
+#### 3. VMを起動(再起動)する
