@@ -1,12 +1,10 @@
 ---
-title: Virtual Box (vagrantを含む) でUSB機器を認識させる方法
+title: VirtualBoxでUSB機器を認識させる
 date: 2020/03/12 17:08
 tags:
 ---
 
-## Virtual Box (vagrantを含む) でUSB機器を認識させる方法
-
-### 前提
+## 前提
 
 VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで利用できる。
 また、ホスト側でドライバを用意しなくても、ゲストOS側でドライバを導入すれば利用できる。
@@ -19,9 +17,9 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 - VirtualBox: 6.0.14 r133895 (Qt5.6.3)
 - ゲストOS: [bento/ubuntu-18.04](https://app.vagrantup.com/bento/boxes/ubuntu-18.04)
 
-### 作業
+## 作業
 
-#### 1. Extension Packの導入
+### 1. Extension Packの導入
 
 [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)からOracle VM VirtualBox Extension Packをダウンロードする。
 
@@ -34,7 +32,7 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 ダウンロードしたファイルをダブルクリックすると、VirtualBoxのウィンドウが立ち上がりインストールが始まる。
 
-#### 2. USBデバイスフィルターに機器を追加
+### 2. USBデバイスフィルターに機器を追加
 
 Oracle VM VirtualBoxマネージャーを開き、目的のVMにカーソルを合わせて右クリック -> 設定 を開く。
 
@@ -48,4 +46,4 @@ USBデバイスフィルター -> 右横の+アイコンをクリック -> 目�
 
 ![USBデバイスフィルター](2.png)
 
-#### 3. VMを起動(再起動)する
+### 3. VMを起動(再起動)する
