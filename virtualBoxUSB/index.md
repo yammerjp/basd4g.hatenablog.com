@@ -21,6 +21,8 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 ### 1. Extension Packの導入
 
+(2020/03/24追記: homebrew caskにて導入できることを確認しました。`$ brew cask install virtualbox-extension-pack`)
+
 [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)からOracle VM VirtualBox Extension Packをダウンロードする。
 
 最新版は、VirtualBox x.x.x Oracle VM VirtualBox Extension Packの1行下のAll supported platformsがリンクになっている。
