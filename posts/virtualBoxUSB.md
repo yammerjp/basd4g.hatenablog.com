@@ -38,7 +38,7 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 Oracle VM VirtualBoxマネージャーを開き、目的のVMにカーソルを合わせて右クリック -> 設定 を開く。
 
-![Oracle VM VirtualBoxマネージャー](1.png)
+![Oracle VM VirtualBoxマネージャー](/img/oracle-vm-virtualbox-manager.png)
 
 ポート -> USB を開く
 
@@ -46,6 +46,6 @@ USBコントローラを有効化にチェックを入れる。
 
 USBデバイスフィルター -> 右横の+アイコンをクリック -> 目的のデバイスを選択する。
 
-![USBデバイスフィルター](2.png)
+![USBデバイスフィルター](usb-device-filter.png)
 
 ### 3. VMを起動(再起動)する
