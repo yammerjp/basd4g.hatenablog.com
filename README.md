@@ -1,25 +1,25 @@
-# green-turtle-article
+# basd4g.hatenablog.net
 
-ブログ green-turtle 記事管理用リポジトリ 
+[はてなブログ](https://basd4g.hatenablog.net)記事管理用リポジトリ
 
-## 記事を書くとき
+## Old blog
 
-1. draft/[article id]ブランチを切る
-1. `vim posts/[article id].md`
-1. index.mdに記事を書く
-1. 適宜commit, push
-1. pullreqを出してもう一度読み直し、良さげならmerge
-
-注意: 現在の仕様では記事IDとして認められるのは半角英数のみ。
+2020/5/4、[Green Turtle](https://blog.yammer.fun)より移動。
 
 ## Todo
 
 - masterをpush不可に
 
+- front matter yamlを blogsyncに合わせる
+
+- CDを作る
+ - merge時にgithubからはてなブログにpostする
+ - masterにpushした際にはてなブログと差異があれば、hatenablogから持ってきて自動でコミットする。
+
+
 ## ローカルで見え方をチェックする
 
 ```sh
-$ cd green-turtle-article
 $ md-server
 ```
 
