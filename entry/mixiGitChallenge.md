@@ -1,6 +1,6 @@
 ---
-title: mixi git challenge 12に参加した
-date: 2019/11/20 19:40
+Title:mixi git challenge 12に参加した
+Date: 2019-11-20T19:40:00+09:00
 tags: mixi git
 ---
 

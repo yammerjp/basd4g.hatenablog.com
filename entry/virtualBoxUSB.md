@@ -1,6 +1,6 @@
 ---
-title: VirtualBoxでUSB機器を認識させる
-date: 2020/03/12 17:08
+Title:VirtualBoxでUSB機器を認識させる
+Date: 2020-03-12T17:08:00+09:00
 tags:
 ---
 

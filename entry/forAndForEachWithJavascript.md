@@ -1,6 +1,6 @@
 ---
-title: Javascriptにおける、forとforEachの比較
-date: 2020/01/14 18:23
+Title:Javascriptにおける、forとforEachの比較
+Date: 2020-01-14T18:23:00+09:00
 tags: javascript es6
 ---
 
