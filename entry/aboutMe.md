@@ -1,7 +1,8 @@
 ---
 Title:About me
 Date: 2019-09-18T21:50:00+09:00
-tags: 自己紹介
+Category:
+- 自己紹介
 ---
 
 ## 自己紹介

@@ -1,7 +1,10 @@
 ---
 Title:TypeScriptでprivate methodを外部から呼ぶ
 Date: 2019-10-17T11:50:00+09:00
-tags: TypeScript JavaScript テスト
+Category:
+- TypeScript
+- JavaScript
+- テスト
 ---
 
 題名通りの話。

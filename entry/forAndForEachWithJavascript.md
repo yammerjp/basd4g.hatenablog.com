@@ -1,7 +1,9 @@
 ---
 Title:Javascriptにおける、forとforEachの比較
 Date: 2020-01-14T18:23:00+09:00
-tags: javascript es6
+Category:
+- javascript
+- es6
 ---
 
 知人に質問された内容への回答を兼ねて、Javascriptにおける繰り返し文の記法を振り返る。
