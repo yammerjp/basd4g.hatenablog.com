@@ -1,0 +1,44 @@
+name: Push
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deploy and Commit
+      env:
+        HATENA_USER_ID: ${{ secrets.HATENA_USER }}
+        HATENA_BLOG_ID: ${{ secrets.HATENA_BLOG_ID }}
+        HATENA_API_KEY: ${{ secrets.HATENA_API_KEY }}
+        GIT_NAME: ${{ secrets.GIT_NAME }}
+        GIT_MAIL: ${{ secrets.GIT_MAIL }}
+        REPO_OWNER: ${{ github.repository_owner }}
+      run: |
+        cd ${GITHUB_WORKSPACE}
+
+        echo 'git initialize'
+        git config --global user.name "${GIT_NAME}"
+        git config --global user.email "${GIT_MAIL}"
+        git remote set-url origin "https://${REPO_OWNER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+        echo 'gimonfu initialize'
+        npm init -y > /dev/null 2>&1
+        npm install gimonfu
+        echo "{\"user_id\":\"${HATENA_USER_ID}\",\"blog_id\":\"${HATENA_BLOG_ID}\",\"api_key\":\"${HATENA_API_KEY}\"}" > .gimonfu.json
+
+        echo 'gimonfu push'
+        npx gimonfu --git-commit-date --allow-delete push
+        git add entry
+
+        # This script will not commit if there are no changes.
+        if ! git diff --staged --exit-code --quiet; then \
+          git commit -m "Pull articles (automatic commit)" ;\
+        fi
+
+        git push origin HEAD:master
