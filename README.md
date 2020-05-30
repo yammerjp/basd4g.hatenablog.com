@@ -1,27 +1,45 @@
-# basd4g.hatenablog.net
+# basd4g.hatenablog.com
 
-[はてなブログ](https://basd4g.hatenablog.net)記事管理用リポジトリ
+My [blog](https://basd4g.hatenablog.com)'s articles.
 
-## Old blog
-
-2020/5/4、[Green Turtle](https://blog.yammer.fun)より移動。
-
-## Todo
-
-- masterをpush不可に
-
-- front matter yamlを blogsyncに合わせる
-
-- CDを作る
- - merge時にgithubからはてなブログにpostする
- - masterにpushした際にはてなブログと差異があれば、hatenablogから持ってきて自動でコミットする。
-
-
-## ローカルで見え方をチェックする
+## Installation
 
 ```sh
+$ git clone https://github.com/basd4g/basd4g.hatenablog.com.git
+$ cd basd4g.hatenablog.com
+$ yarn
+```
+
+## Download articles
+
+```sh
+$ yarn pull
+```
+
+## Upload articles
+
+```sh
+$ Upload Articles
+```
+
+## Automatic deploying
+
+[Hatenablog](https://basd4g.hatenablog.com) and [this repository](https://github.com/basd4g/basd4g.hatenablog.com) is automatically synced with GitHub Actions.
+
+Run [a uploading workflow](https://github.com/basd4g/basd4g.hatenablog.com/blob/master/.github/workflows/push.yaml) with push to master.
+
+Run [a downloading workflow](https://github.com/basd4g/basd4g.hatenablog.com/blob/master/.github/workflows/pull.yaml) every hour.
+
+## Old blog URL
+
+~2020/5/31: [Green Turtle](https://blog.yammer.fun)
+
+## Check markdown articles
+
+```sh
+$ yarn global add basd4g/md-server
 $ md-server
 ```
 
-[md-server](https://github.com/basd4g/md-server)で、ローカルにサーバを建てられる。
+[md-server](https://github.com/basd4g/md-server)
 
