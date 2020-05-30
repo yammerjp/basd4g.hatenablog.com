@@ -1,2 +1,3 @@
 .DS_Store
-blogsync.yaml
+node_modules
+.gimonfu.json
