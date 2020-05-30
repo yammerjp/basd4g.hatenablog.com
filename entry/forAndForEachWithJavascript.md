@@ -1,11 +1,10 @@
 ---
-Title:Javascriptにおける、forとforEachの比較
-Date: 2020-01-14T18:23:00+09:00
-Category:
-- javascript
-- es6
+title: Javascriptにおける、forとforEachの比較
+date: 2020-01-14T09:23:00.000Z
+categories:
+  - javascript
+  - es6
 ---
-
 知人に質問された内容への回答を兼ねて、Javascriptにおける繰り返し文の記法を振り返る。
 
 この記事では、同じ結果を出力する繰り返し文を、次の２つの文法で記述し比較する。

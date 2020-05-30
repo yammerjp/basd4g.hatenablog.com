@@ -1,11 +1,10 @@
 ---
-Title:Nuxt.js(v2.9.2)とTypeScriptの開発環境を作る。
-Date: 2019-09-27T12:30:00+09:00
-Category:
-- Nuxt.js
-- TypeScript
+title: Nuxt.js(v2.9.2)とTypeScriptの開発環境を作る。
+date: 2019-09-27T03:30:00.000Z
+categories:
+  - Nuxt.js
+  - TypeScript
 ---
-
 Nuxt.jsとTypeScriptで開発環境を作るときのまとめ。(2019/9/5時点)
 
 お急ぎの方は、

@@ -1,10 +1,7 @@
 ---
-Title:About me
-Date: 2019-09-18T21:50:00+09:00
-Category:
-- 自己紹介
+title: About me
+date: 2019-09-18T12:50:00.000Z
 ---
-
 ## 自己紹介
 
 HN: やんまー

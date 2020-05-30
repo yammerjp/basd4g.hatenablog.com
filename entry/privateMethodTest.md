@@ -1,12 +1,11 @@
 ---
-Title:TypeScriptでprivate methodを外部から呼ぶ
-Date: 2019-10-17T11:50:00+09:00
-Category:
-- TypeScript
-- JavaScript
-- テスト
+title: TypeScriptでprivate methodを外部から呼ぶ
+date: 2019-10-17T02:50:00.000Z
+categories:
+  - TypeScript
+  - JavaScript
+  - テスト
 ---
-
 題名通りの話。
 
 TypeScriptにてprivate methodを単体テストするとき、直接呼べないので困ることがある。

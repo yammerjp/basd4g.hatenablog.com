@@ -1,8 +1,7 @@
 ---
-Title:VirtualBoxでUSB機器を認識させる
-Date: 2020-03-12T17:08:00+09:00
+title: VirtualBoxでUSB機器を認識させる
+date: 2020-03-12T08:08:00.000Z
 ---
-
 ## 前提
 
 VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで利用できる。

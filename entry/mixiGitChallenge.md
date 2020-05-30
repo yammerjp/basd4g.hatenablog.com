@@ -1,11 +1,10 @@
 ---
-Title:mixi git challenge 12に参加した
-Date: 2019-11-20T19:40:00+09:00
-Category:
-- mixi
-- git
+title: mixi git challenge 12に参加した
+date: 2019-11-20T10:40:00.000Z
+categories:
+  - mixi
+  - git
 ---
-
 2019/10/26、株式会社ミクシィの主催する mixi git challenge #12 に参加した。
 
 ## 株式会社ミクシイ
