@@ -5,6 +5,7 @@ categories:
   - TypeScript
   - JavaScript
   - テスト
+id: "26006613576772420"
 ---
 題名通りの話。
 

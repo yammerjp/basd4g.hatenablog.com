@@ -4,6 +4,7 @@ date: 2019-09-27T03:30:00.000Z
 categories:
   - Nuxt.js
   - TypeScript
+id: "26006613576772418"
 ---
 Nuxt.jsとTypeScriptで開発環境を作るときのまとめ。(2019/9/5時点)
 
