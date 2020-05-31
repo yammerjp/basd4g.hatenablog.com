@@ -7,24 +7,24 @@ My [blog](https://basd4g.hatenablog.com)'s articles.
 ```sh
 $ git clone https://github.com/basd4g/basd4g.hatenablog.com.git
 $ cd basd4g.hatenablog.com
-$ yarn
+$ gimonfu init
 ```
 
 ## Download articles
 
 ```sh
-$ yarn pull
+$ gimonfu pull
 ```
 
 ## Upload articles
 
 ```sh
-$ Upload Articles
+$ gimonfu push
 ```
 
 ## Automatic deploying
 
-[Hatenablog](https://basd4g.hatenablog.com) and [this repository](https://github.com/basd4g/basd4g.hatenablog.com) is automatically synced with GitHub Actions.
+[Hatenablog](https://basd4g.hatenablog.com) and [this repository](https://github.com/basd4g/basd4g.hatenablog.com) is automatically synced with GitHub Actions and [gimonfu](https://github.com/basd4g/gimonfu).
 
 Run [a uploading workflow](https://github.com/basd4g/basd4g.hatenablog.com/blob/master/.github/workflows/push.yaml) with push to master.
 
