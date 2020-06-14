@@ -36,7 +36,7 @@ jobs:
         npx gimonfu --git-commit-date --allow-delete pull
         git add entry
 
-        # This script will not commit if there are no changes.
+        # This script will not make a commit if there are no changes.
         if ! git diff --staged --exit-code --quiet; then \
           git commit -m "Pull articles (automatic commit)" ;\
         fi
