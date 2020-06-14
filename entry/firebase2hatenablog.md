@@ -24,7 +24,7 @@ Markdown の記事は、以前のブログでも GitHub 上で記事を管理し
 はてなブログの CLI には、既に [blogsync](https://github.com/x-motemen/blogsync) というソフトウェアがある。  
 当初はこのソフトウェアを使おうと思っていたのだが、新規記事投稿の部分が自分の思うように行かず、APIを触っているうちに、全部作ったほうがいいのでは？という気持ちになり CLI が出来上がってしまった。
 
-[blogsync](https://github.com/x-motemen/blogsync) と [gimonfu](https://github.com/x-motemen/blogsync) はどちらも1記事につき、1ファイルで、ファイル先頭に YAML Front matter といわれる YAML 形式の記事情報を含む。
+[blogsync](https://github.com/x-motemen/blogsync) と [gimonfu](https://github.com/basd4g/gimonfu) はどちらも1記事につき、1ファイルで、ファイル先頭に YAML Front matter といわれる YAML 形式の記事情報を含む。
 またURLの構造が記事ファイルのディレクトリ構造となる点も同じだ。
 
 一方で、記事の投稿に関しては異なる点がある。  
@@ -35,7 +35,7 @@ blogsync では、記事本文のみを標準入力で CLI に渡すが、 gimon
 現にこのブログも、新規投稿時にファイルを追加して GitHub に push すれば、自動的にはてなブログも更新されるようにしてある。 (逆にはてなブログが更新されたらGitHub にも反映されるワークフローも設定している。)
 
 gimonfu の使い方の詳細は [README](https://github.com/basd4g/gimonfu) に譲るが、[このブログのワークフロー](https://github.com/basd4g/basd4g.hatenablog.com/tree/master/.github/workflows)と同じものを GitHub Actions に指定すれば、記事管理がとても捗ると思うので是非活用して欲しい。
-([ワークフローの設定記事をQiitaに投稿した](https://qiita.com/basd4g/items/1a38857f6bafb20f065d))
+(なお、[ワークフローの設定記事をQiitaに投稿した](https://qiita.com/basd4g/items/1a38857f6bafb20f065d))
 
 ## 2. Zeit now を使った旧ドメインの転送処理
 
