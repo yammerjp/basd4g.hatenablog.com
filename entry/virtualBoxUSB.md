@@ -37,7 +37,7 @@ VirtualBoxは、ホストマシンにつながったUSB機器をゲストOSで�
 
 Oracle VM VirtualBoxマネージャーを開き、目的のVMにカーソルを合わせて右クリック -> 設定 を開く。
 
-![Oracle VM VirtualBoxマネージャー](https://blob.basd4g.net/oracle-vm-virtualbox-manager.png)
+![Oracle VM VirtualBoxマネージャー](https://blob.yammer.jp/oracle-vm-virtualbox-manager.png)
 
 ポート -> USB を開く
 
