@@ -2,6 +2,7 @@
 title: VirtualBoxでUSB機器を認識させる
 date: 2020-03-12T08:08:00.000Z
 id: "26006613576772429"
+draft: false
 ---
 ## 前提
 
